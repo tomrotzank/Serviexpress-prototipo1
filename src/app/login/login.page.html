@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-toolbar class="mi-toolbar">
+   <ion-buttons slot="secondary">
+ 
+     
+     
+   </ion-buttons>         
+  </ion-toolbar>
+ 
+ </ion-header>
+ 
+ 
+ <ion-content class="background ion-padding ">
+ 
+  <div class="ion-text-center">
+    <br>
+    <br>
+    <h1 style="font-size: 37px; color: #5E17EB;">Inicio de <strong>sesión</strong></h1>
+  </div>
+
+    
+
+  <div class="logeando ion-text-center">
+    <br>
+    <p class="p1">CORREO</p>
+    <ion-input  label-placement="floating" fill="outline" placeholder="Ingrese su correo"></ion-input>
+    <br>
+    <br>
+    <p class="p2">CONTRASEÑA</p>
+    <ion-input  fill="outline" placeholder="***********"></ion-input>
+
+  </div>
+
+    <a style="margin-right: 200px;" [routerLink]="['/contrasegnaolvidada']">Recuperar contraseña</a>
+    
+    <div>
+      <ion-button [routerLink]="['/feed']" class="boton-ingresar">Iniciar sesión</ion-button>
+      <div class="crear-cuenta">
+        <a [routerLink]="['/crearcuenta']">Crear cuenta</a>
+      </div>
+    </div>
+
+      
+
+   
+ 
+ 
+ 
+  <div class="circle"></div>
+
+ 
+  <div class="patron"></div>
+
+ 
+ </ion-content>
